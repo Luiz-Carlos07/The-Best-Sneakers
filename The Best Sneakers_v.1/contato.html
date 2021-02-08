@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Best Sneakers</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body id="top">
+		<section id="banner" data-video="images/banner">
+			<div class="inner">
+				<div class="w3-container">
+					<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large"><strong>Login</strong></button>
+					<div id="id01" class="w3-modal">
+						<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+							<div class="w3-center"><br>
+								<img src="file:///C:/Users/acer/Desktop/Exemplo/Tenis/images/%C3%ADcone/pessoa.jpg" alt="Avatar" style="width:30%" id="avatar" >
+							</div>
+							<form class="w3-container">
+								<div class="w3-section">
+									<label><b>CPF:</b></label>
+									<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Digite seu CPF" name="usrname" required>
+									<label><b>Senha:</b></label>
+									<input class="w3-input w3-border" type="password" placeholder="Digite sua Senha" name="psw" required>
+									<button class="w3-button w3-block w3-green" type="submit" id="log"><strong>Login</strong></button>
+									<div id="check">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Login">
+  										<label for="vehicle1">Lembrar</label><br>
+									</div>
+									<div id="hr">
+										<hr>
+									</div>
+									<div >
+										<button onclick="document.getElementById('id01').style.display='none'" type="button" id="can"class="w3-button w3-red">Cancelar</button>
+										<span id="small">Esqueceu <a href="#">sua senha?</a></span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<header>
+					<h1>The Best Sneakers</h1>
+					<p><strong>A maior e melhor loja online  de calçados do Brasil<br/>
+					Confira nossas promoções e leve o Sneaker perfeito pra você.</strong></p>
+				</header>
+				
+				<div id="menu">
+					<ul id="ul_menu">
+						<strong>
+							<li id="li_menu"><a class="active" href="file:///C:/Users/acer/Desktop/Exemplo/index.html">Início</a></li>
+							<li id="li_menu"><a href="file:///C:/Users/acer/Desktop/Exemplo/categorias.html">Categorias</a></li>
+							<li id="li_menu"><a href="file:///C:/Users/acer/Desktop/Exemplo/carrinho.html">Carrinho</a></li>
+							<li id="li_menu"><a href="file:///C:/Users/acer/Desktop/Exemplo/contato.html">Contato</a></li>
+							<li id="li_menu"><a href="file:///C:/Users/acer/Desktop/Exemplo/ajuda.html">Ajuda</a></li>
+						</strong>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<div id="after_submit"></div>
+		<form id="contact_form" action="file:///C:/Users/acer/Desktop/Exemplo/contato.html" method="POST" enctype="multipart/form-data">
+			<div class="row">
+				<label class="required" for="name">Name :</label><br />
+				<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+				<span id="name_validation" class="error_message"></span>
+			</div>
+			<div class="row">
+				<label class="required" for="email">E-mail :</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				<span id="email_validation" class="error_message"></span>
+			</div>
+			<div class="row">
+				<label class="required" for="message">Menssagem :</label><br />
+				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				<span id="message_validation" class="error_message"></span>
+			</div>
+	    	<input id="submit_button" type="submit" value="Enviar" />
+		</form>
+
+
+
+
+
+		<footer id="footer">
+			<div class="inner">
+				<h2>The Best Sneakers</h2>
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<p class="copyright">&copy; Untitled. Design: <a href="#">CidClay</a>. Images: <a href="#">Google</a>. Videos: <a href="#">YouTube</a>.</p>
+			</div>
+		</footer>
+
+	</body>
+</html>

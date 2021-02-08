@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>The Best Sneakers</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<body id="top">
+		<section id="banner" data-video="images/banner">
+			<div class="inner">
+				<div class="w3-container">
+					<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large"><strong>Login</strong></button>
+					<div id="id01" class="w3-modal">
+						<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+							<div class="w3-center"><br>
+								<img src="file:///C:/Users/acer/Desktop/Exemplo/Tenis/images/%C3%ADcone/pessoa.jpg" alt="Avatar" style="width:30%" id="avatar" >
+							</div>
+							<form class="w3-container">
+								<div class="w3-section">
+									<label><b>CPF:</b></label>
+									<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Digite seu CPF" name="usrname" required>
+									<label><b>Senha:</b></label>
+									<input class="w3-input w3-border" type="password" placeholder="Digite sua Senha" name="psw" required>
+									<button class="w3-button w3-block w3-green" type="submit" id="log"><strong>Login</strong></button>
+									<div id="check">
+										<input type="checkbox" id="vehicle1" name="vehicle1" value="Login">
+  										<label for="vehicle1">Lembrar</label><br>
+									</div>
+									<div id="hr">
+										<hr>
+									</div>
+									<div >
+										<button onclick="document.getElementById('id01').style.display='none'" type="button" id="can"class="w3-button w3-red">Cancelar</button>
+										<span id="small">Esqueceu <a href="#">sua senha?</a></span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<header>
+					<h1>The Best Sneakers</h1>
+					<p><strong>A maior e melhor loja online  de calçados do Brasil<br/>
+					Confira nossas promoções e leve o Sneaker perfeito pra você.</strong></p>
+				</header>
+				
+				<div id="menu">
+					<ul id="ul_menu">
+						<strong>
+							<li id="li_menu"><a class="active" href="file:///C:/Users/acer/Desktop/Exemplo/index.html"><strong>Início</strong></a></li>
+							<li id="li_menu"><a href="file:///C:/Users/acer/Desktop/Exemplo/categorias.html"><strong>Categorias</strong></a></li>
+							<li id="li_menu"><a href="file:///C:/Users/acer/Desktop/Exemplo/carrinho.html"><strong>Carrinho</strong></a></li>
+							<li id="li_menu"><a href="file:///C:/Users/acer/Desktop/Exemplo/contato.html"><strong>Contato</strong></a></li>
+							<li id="li_menu"><a href="file:///C:/Users/acer/Desktop/Exemplo/ajuda.html"><strong>Ajuda</strong></a></li>
+						</strong>
+					</ul>
+				</div>
+			</div>	
+		</section>
+
+
+		<div id="main">
+			<div class="inner">
+				<div class="thumbnail">
+					<div class="box">
+						<div id="carrossel_01">
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Performance.html" class="image fit"><img class="mySlides_01" src="file:///C:/Users/acer/Desktop/Exemplo/images/tn1.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Performance.html" class="image fit"><img class="mySlides_01" src="file:///C:/Users/acer/Desktop/Exemplo/images/tn2.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Performance.html" class="image fit"><img class="mySlides_01" src="file:///C:/Users/acer/Desktop/Exemplo/images/tn3.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Performance.html" class="image fit"><img class="mySlides_01" src="file:///C:/Users/acer/Desktop/Exemplo/images/tn4.jpg" alt="" /></a>
+							<script>
+								var slideIndex_01 = 0;
+								carousel_01();
+
+								function carousel_01() {
+								  var y;
+								  var z = document.getElementsByClassName("mySlides_01");
+								  for (y = 0; y < z.length; y++) {
+								    z[y].style.display = "none"; 
+								  }
+								  slideIndex_01++;
+								  if (slideIndex_01 > z.length) {slideIndex_01 = 1} 
+								  z[slideIndex_01-1].style.display = "block"; 
+								  setTimeout(carousel_01, 3000); 
+								}
+							</script>
+						</div>
+						<div class="inner">
+							<h3>Tênis Performance</h3>
+							<p>Só na The Best Sneakers você encontra os melhores tênis performance do mercado, não perca mais tempo.</p>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Performance.html" class="button fit" data-poptrox="youtube,800x400">Confira já!</a>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="carrossel_02">
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Casual.html" class="image fit"><img class="mySlides_02" src="file:///C:/Users/acer/Desktop/Exemplo/images/cs1.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Casual.html" class="image fit"><img class="mySlides_02" src="file:///C:/Users/acer/Desktop/Exemplo/images/cs2.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Casual.html" class="image fit"><img class="mySlides_02" src="file:///C:/Users/acer/Desktop/Exemplo/images/cs3.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Casual.html" class="image fit"><img class="mySlides_02" src="file:///C:/Users/acer/Desktop/Exemplo/images/cs4.jpg" alt="" /></a>
+							<script>
+								var slideIndex_02 = 0;
+								carousel_02();
+
+								function carousel_02() {
+								  var y;
+								  var z = document.getElementsByClassName("mySlides_02");
+								  for (y = 0; y < z.length; y++) {
+								    z[y].style.display = "none"; 
+								  }
+								  slideIndex_02++;
+								  if (slideIndex_02 > z.length) {slideIndex_02 = 1} 
+								  z[slideIndex_02-1].style.display = "block"; 
+								  setTimeout(carousel_02, 3000); 
+								}
+							</script>
+						</div>
+						<div class="inner">
+							<h3>Tênis Casual</h3>
+							<p>Se você busca um tenis para o seu dia a dia está no lugar certo,não perca mais tempo, vem aproveitar nossas ofertas.</p>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Casual.html" class="button style2 fit" data-poptrox="youtube,800x400">Confira já!</a>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="carrossel_03">
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Sapatenis.html" class="image fit"><img class="mySlides_03" src="file:///C:/Users/acer/Desktop/Exemplo/images/sp1.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Sapatenis.html" class="image fit"><img class="mySlides_03" src="file:///C:/Users/acer/Desktop/Exemplo/images/sp2.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Sapatenis.html" class="image fit"><img class="mySlides_03" src="file:///C:/Users/acer/Desktop/Exemplo/images/sp3.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Sapatenis.html" class="image fit"><img class="mySlides_03" src="file:///C:/Users/acer/Desktop/Exemplo/images/sp4.jpg" alt="" /></a>
+							<script>
+								var slideIndex_03 = 0;
+								carousel_03();
+
+								function carousel_03() {
+								  var y;
+								  var z = document.getElementsByClassName("mySlides_03");
+								  for (y = 0; y < z.length; y++) {
+								    z[y].style.display = "none"; 
+								  }
+								  slideIndex_03++;
+								  if (slideIndex_03 > z.length) {slideIndex_03 = 1} 
+								  z[slideIndex_03-1].style.display = "block"; 
+								  setTimeout(carousel_03, 3000); 
+								}
+							</script>
+						</div>
+						<div class="inner">
+							<h3>Sapatênis</h3>
+							<p>Para um visual mais discreto nada melhor do que um um bom sapatênis, aqui você possui milhares de opções.</p>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/T_Sapatenis.html" class="button style3 fit" data-poptrox="youtube,800x400">Confira já!</a>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="carrossel_04">
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/S_Social.html" class="image fit"><img class="mySlides_04" src="file:///C:/Users/acer/Desktop/Exemplo/images/ss1.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/S_Social.html" class="image fit"><img class="mySlides_04" src="file:///C:/Users/acer/Desktop/Exemplo/images/ss3.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/S_Social.html" class="image fit"><img class="mySlides_04" src="file:///C:/Users/acer/Desktop/Exemplo/images/ss2.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/S_Social.html" class="image fit"><img class="mySlides_04" src="file:///C:/Users/acer/Desktop/Exemplo/images/ss4.jpg" alt="" /></a>
+							<script>
+								var slideIndex_04 = 0;
+								carousel_04();
+
+								function carousel_04() {
+								  var y;
+								  var z = document.getElementsByClassName("mySlides_04");
+								  for (y = 0; y < z.length; y++) {
+								    z[y].style.display = "none"; 
+								  }
+								  slideIndex_04++;
+								  if (slideIndex_04 > z.length) {slideIndex_04 = 1} 
+								  z[slideIndex_04-1].style.display = "block"; 
+								  setTimeout(carousel_04, 3000); 
+								}
+							</script>
+						</div>
+						<div class="inner">
+							<h3>Sapatos e Saltos Alto</h3>
+							<p>Para momentos formais, aqui você encontra grande variedade de sapatos social e saltos auto, aproveite nossa seleção especial.</p>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/S_Social.html" class="button style3 fit" data-poptrox="youtube,800x400">Confira já!</a>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="carrossel_05">
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Sapatilha.html" class="image fit"><img class="mySlides_05" src="file:///C:/Users/acer/Desktop/Exemplo/images/st1.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Sapatilha.html" class="image fit"><img class="mySlides_05" src="file:///C:/Users/acer/Desktop/Exemplo/images/st2.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Sapatilha.html" class="image fit"><img class="mySlides_05" src="file:///C:/Users/acer/Desktop/Exemplo/images/st3.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Sapatilha.html" class="image fit"><img class="mySlides_05" src="file:///C:/Users/acer/Desktop/Exemplo/images/st4.jpg" alt="" /></a>
+							<script>
+								var slideIndex_05 = 0;
+								carousel_05();
+
+								function carousel_05() {
+								  var y;
+								  var z = document.getElementsByClassName("mySlides_05");
+								  for (y = 0; y < z.length; y++) {
+								    z[y].style.display = "none"; 
+								  }
+								  slideIndex_05++;
+								  if (slideIndex_05 > z.length) {slideIndex_05 = 1} 
+								  z[slideIndex_05-1].style.display = "block"; 
+								  setTimeout(carousel_05, 3000); 
+								}
+							</script>
+						</div>
+						<div class="inner">
+							<h3>Sandálias e Sapatilhas</h3>
+							<p>Em momentos de descanso e tranquilidade você só que se ver livre, então aproveite as promoções em sandálias e sapatihas.</p>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Sapatilha.html" class="button style2 fit" data-poptrox="youtube,800x400">Confira já!</a>
+						</div>
+					</div>
+
+					<div class="box">
+						<div id="carrossel_06">
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Bota.html" class="image fit"><img class="mySlides_06" src="file:///C:/Users/acer/Desktop/Exemplo/images/bt1.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Bota.html" class="image fit"><img class="mySlides_06" src="file:///C:/Users/acer/Desktop/Exemplo/images/bt2.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Bota.html" class="image fit"><img class="mySlides_06" src="file:///C:/Users/acer/Desktop/Exemplo/images/bt3.jpg" alt="" /></a>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Bota.html" class="image fit"><img class="mySlides_06" src="file:///C:/Users/acer/Desktop/Exemplo/images/bt4.jpg" alt="" /></a>
+							<script>
+								var slideIndex_06 = 0;
+								carousel_06();
+
+								function carousel_06() {
+								  var y;
+								  var z = document.getElementsByClassName("mySlides_06");
+								  for (y = 0; y < z.length; y++) {
+								    z[y].style.display = "none"; 
+								  }
+								  slideIndex_06++;
+								  if (slideIndex_06 > z.length) {slideIndex_06 = 1} 
+								  z[slideIndex_06-1].style.display = "block"; 
+								  setTimeout(carousel_06, 3000); 
+								}
+							</script>
+						</div>
+						<div class="inner">
+							<h3>Botas e Coturnos</h3>
+							<p>Para os amantes de aventuras temos um seleção especial de botas e coturnos que iram lhe proporcionar momentos inesquecíveis.</p>
+							<a href="file:///C:/Users/acer/Desktop/Exemplo/Tenis/Bota.html" class="button fit" data-poptrox="youtube,800x400">Confira já!</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<footer id="footer">
+			<div class="inner">
+				<h2>The Best Sneakers</h2>
+				<p>A Tre Best Sneakers sugiu de uma ideia proposta por dois estudantes do ensino médio, no início era apenas um projeto para uma disciplina curricular, pórem com o tempo passou a ser um investimento, ou melhor, um sonho realizado, com mais de 10 anos de mercado, somos considerados a maior loja online de calçados do Brasil. </p>
+
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<p class="copyright">&copy; Untitled. Design: <a href="#">CidClay</a>. Images: <a href="#">Google</a>. Videos: <a href="#">YouTube</a>.</p>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
